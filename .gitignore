@@ -1,0 +1,56 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+
+# IDEs
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.userprefs
+*.swp
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# Local configuration and secrets
+appsettings.*.local.json
+*.local.json
+.env
+.env.*
+!.env.example
+secrets.json
+*.pfx
+*.pem
+
+# Azure
+.azure/
+local.settings.json
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+
+# Terraform / Bicep outputs
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# OS
+.DS_Store
+Thumbs.db
